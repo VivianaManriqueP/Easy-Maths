@@ -8,7 +8,7 @@ const nodemailer = require('nodemailer');
 const app = express();
 
 // Configuramos el puerto en el que correrá el servidor
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 // Configuramos el middleware para servir archivos estáticos desde la carpeta 'public'
 app.use(express.static(path.join(__dirname, 'public')));
